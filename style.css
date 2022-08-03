@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: slategrey;
+}
+
+.key {
+    border: 2px solid blue;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(64, 64, 95);
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+    margin: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: gray;
+    font-size: 15px;
+}
